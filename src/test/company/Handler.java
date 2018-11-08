@@ -1,3 +1,5 @@
+package test.company;
+
 public abstract class Handler {
 
     protected Handler successor;

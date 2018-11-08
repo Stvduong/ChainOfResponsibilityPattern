@@ -1,3 +1,5 @@
+package test.company;
+
 public class ConcreteHandler1 extends Handler {
 
     public Handler successor2;
@@ -6,8 +8,8 @@ public class ConcreteHandler1 extends Handler {
         super.SetSuccessor(successor);
     }
 
-    public void SetSuccessor2(Handler successor) {
-        successor2 = successor;
+    public void testing() {
+        System.out.println("Testing");
     }
 
     @Override

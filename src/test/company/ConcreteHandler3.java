@@ -1,3 +1,5 @@
+package test.company;
+
 public class ConcreteHandler3 extends Handler {
 
     @Override
